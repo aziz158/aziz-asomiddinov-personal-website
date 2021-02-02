@@ -46,7 +46,7 @@
 
   .aboutme {
     background-image: url('./images/Portfolio.jpeg');
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
