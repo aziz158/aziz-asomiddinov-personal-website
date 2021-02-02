@@ -40,7 +40,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link linkedin'
-              to='/'
+              to='//www.linkedin.com/in/azizkhuja/'
               target='_blank'
               aria-label='LinkedIn'
             >
