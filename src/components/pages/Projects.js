@@ -1,6 +1,15 @@
 import React from 'react';
 import '../../App.css';
+import ProjectCards from '../ProjectCards.js'
 
-export default function Projects() {
-  return <h1 className='projects'>PROJECTS</h1>;
+
+
+function Projects() {
+  return( 
+  <>
+    <ProjectCards />
+  </>
+  );
 }
+
+export default Projects;
