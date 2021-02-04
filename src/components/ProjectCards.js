@@ -5,20 +5,20 @@ import CardItem from './CardItem';
 function ProjectCards() {
     return (
       <div className='pcards'>
-        <h1>Check out the content</h1>
+        <h1>My Projects</h1>
         <div className='pcards__container'>
           <div className='pcards__wrapper'>
             <ul className='pcards__items'>
               <CardItem
                 src='./images/Desktop.jpg'
-                text='Explore my technical background and my skills'
-                label='Portfolio'
-                path='/portfolio'
+                text='UCSC Long Marine Lab Stranding Map'
+                label='Web-App'
+                path='portfolio'
               />
               <CardItem
                 src='./images/Projects.jpeg'
                 text='Take a look at the projects that Ive been part of'
-                label='Projects'
+                label='Mobile-App'
                 path='/projects'
               />
             </ul>
