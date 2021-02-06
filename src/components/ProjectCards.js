@@ -1,6 +1,7 @@
 import React from 'react';
-import './ProjectCards.css';
+
 //import 'bootstrap/dist/css/bootstrap.min.css';
+import './ProjectCards.css';
 
 import { Card, Button } from "react-bootstrap";
 

@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar';
@@ -8,7 +9,6 @@ import Projects from './components/pages/Projects';
 import Contacts from './components/pages/Contacts';
 import Aboutme from './components/pages/Aboutme';
 import Footer from './components/Footer';
-
 
 
 function App() {
