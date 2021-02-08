@@ -1,8 +1,5 @@
 import React from 'react';
-
-//import 'bootstrap/dist/css/bootstrap.min.css';
 import './ProjectCards.css';
-
 import { Card, Button } from "react-bootstrap";
 
 const ProjectCards = () => {
@@ -32,12 +29,12 @@ const ProjectCards = () => {
 
   const renderCard = (card, index) => {
     return (
-      <Card style={{ width: "18rem" }} key={index} className="box">
+      <Card style={{ width: "50rem" }} key={index} className="box">
         <Card.Img variant="top" src="holder.js/100px180" src={card.image} />
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
           <Card.Text>{card.text}</Card.Text>
-          <Button href = {card.link}>Check it out</Button>
+          <Button className="card-button" variant = 'outline-primary' href = {card.link}>Check it out</Button>
         </Card.Body>
       </Card>
     );

@@ -1,4 +1,4 @@
-.box1,
+/* .box1,
 .box2,
 .box3,
 .box4,
@@ -11,14 +11,17 @@
   background-color: #ffffff;
   border-radius: 10px 10px 10px 10px;
   overflow: hidden;
-  /* height: 200px; */
+
   max-height: 35vh;
   -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
-}
+} */
 
 .box {
-  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 300px;
 }
 
 .grid {
@@ -26,9 +29,15 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  background-image: url('../images/OceanWaves.jpeg');
 }
 
-.grid > div {
+.card-button{ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .grid > div {
   flex-basis: calc(50% - 40px);
 }
 
@@ -56,4 +65,4 @@
   background-color: red !important;
   font-size: 5vh;
   border-radius: 10px 10px 10px 10px;
-}
+} */
