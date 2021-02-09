@@ -1,6 +1,8 @@
 import React from 'react';
-import '../../App.css';
+import './Portfolio.css';
 
-export default function Portfolio() {
+function Portfolio() {
   return <h1 className='portfolio'>PORTFOLIO</h1>;
 }
+
+export default Portfolio;

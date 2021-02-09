@@ -15,14 +15,14 @@ const ProjectCards = () => {
       image:
         "https://raw.githubusercontent.com/hamfox/save-our-species/master/Assets/login-view.png",
       title: "Save our Species iOS app",
-      text: "See our IPhone application for reporting Strandings on the beaches \nTechnologies used: Swift, Google Firebase",
+      text: "See our IPhone application for reporting Strandings on the beaches. \nTechnologies used: Swift, Google Firebase",
       link: "https://github.com/hamfox/save-our-species",
     },
     {
       image:
         "https://upload.wikimedia.org/wikipedia/commons/8/82/Huffman_tree_2.svg",
       title: "Huffman Enconding Project",
-      text: "This is the project that I was working in my freshmen year at De Anza. I used Huffman encoding algorithm to encrypt and compress the data \nTechnologies used: C++, Binary Tree, Linked List, Dictionary",
+      text: "This is the project that I was working in my freshmen year at De Anza. I used Huffman encoding algorithm to encrypt and compress the data. \nTechnologies used: C++, Binary Tree, Linked List, Dictionary",
       link: "https://en.wikipedia.org/wiki/Huffman_coding",
     },
   ];
