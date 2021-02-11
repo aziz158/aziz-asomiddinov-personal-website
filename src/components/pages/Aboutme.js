@@ -1,6 +1,18 @@
 import React from 'react';
 import '../../App.css';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
-export default function Aboutme() {
-  return <h1 className='aboutme'>ABOUT ME</h1>;
+function Aboutme() {
+  return (
+  <div className='aboutme'>
+    <div>About Me</div>
+    <AwesomeSlider>
+      <div data-src='../../images/BinaryRain.jpg'/>
+      <div data-src='../../images/BinaryRain.jpg'/>
+      <div data-src='../../images/BinaryRain.jpg'/>
+    </AwesomeSlider>
+  </div>);
 }
+
+export default Aboutme;
