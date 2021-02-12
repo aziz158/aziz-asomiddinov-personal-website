@@ -20,8 +20,9 @@
       margin-top: 50px;
       margin-bottom: 100px;
       border: 20px transparent;
-      height: fit-content;
       width: fit-content;
-
-    
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      height: 100vh;
   }
