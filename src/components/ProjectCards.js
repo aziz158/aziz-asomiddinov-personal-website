@@ -1,6 +1,10 @@
 import React from 'react';
 import './ProjectCards.css';
 import { Card, Button } from "react-bootstrap";
+import CardItem from './CardItem';
+
+const example_Link = '//en.wikipedia.org/wiki/Huffman_coding';
+
 
 const ProjectCards = () => {
   const cardInfo = [
@@ -40,7 +44,13 @@ const ProjectCards = () => {
     );
   };
 
-  return <div className="grid">{cardInfo.map(renderCard)}</div>;
+  return(
+    <div className="grid">
+      {cardInfo.map(renderCard)}
+    </div>
+     
+
+    );
 };
 
 export default ProjectCards;

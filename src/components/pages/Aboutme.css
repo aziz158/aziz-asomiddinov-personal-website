@@ -1,0 +1,27 @@
+
+  .aboutme {
+    background-image: url('../../images/Portfolio.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+
+
+  }
+
+  .aboutme-box{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      margin-bottom: 100px;
+      border: 20px transparent;
+      height: fit-content;
+      width: fit-content;
+
+    
+  }
