@@ -1,7 +1,10 @@
 import React, {useState} from 'react';
-import {Document, Page} from 'react-pdf';
+import {Page} from 'react-pdf';
+import { Document } from 'react-pdf/dist/umd/entry.parcel';
 import './Portfolio.css';
 import Resume from '../../files/Aziz2021_Resume.pdf';
+
+const external_pdf = 'http://www.africau.edu/images/default/sample.pdf';
 
 function Portfolio() {
   const [numPages, setNumPages] = useState(null);
