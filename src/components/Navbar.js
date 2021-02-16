@@ -29,7 +29,6 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Welcome
             <i class='fas fa-chess-knight' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -66,11 +65,11 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Email
+                Contact me
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Email</Button>}
+          {button && <Button buttonStyle='btn--outline'>Contact me</Button>}
         </div>
       </nav>
     </>
