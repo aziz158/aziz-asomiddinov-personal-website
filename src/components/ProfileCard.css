@@ -1,0 +1,60 @@
+.card{
+    width: 300px;
+    height: 700px;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.upper-container{
+    height: 100px;
+    background: transparent;
+}
+
+.image-container img{
+    background: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(75px, 15px);
+}
+
+img{
+    border: 2px solid #000;
+}
+
+.lower-container{
+    margin-top: 5px;
+    padding-top: 80px;
+    height: 400px;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+}
+
+.lower-container h3 h4 p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.lower-container h3{
+    color: #000;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.lower-container h4{
+    color: purple;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.lower-container p{
+    margin: 1rem;
+    font-family: sans-serif;
+    color: #000;
+    font-size: 0.9rem;
+    text-align: justify;
+}   
