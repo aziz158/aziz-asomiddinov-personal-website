@@ -27,15 +27,6 @@
     font-size: 100px;
   }
   
-  .contacts {
-    background-image: url('./images/Contact.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-
   .aboutme {
     background-image: url('./images/Portfolio.jpeg');
     background-position: center;
