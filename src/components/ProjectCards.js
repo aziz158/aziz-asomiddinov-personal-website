@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProjectCards.css';
 import CardItemExternalLink from './CardsItemExternalLink';
+import FadeIn from 'react-fade-in';
 
 
 
@@ -9,6 +10,7 @@ const ProjectCards = () => {
     <div className='pcards'>
       <div className='cards__container'>
         <div className='cards__wrapper'>
+          <FadeIn transitionDuration = '2000' delay = '1000'>
           <ul className='cards__items'>
             <CardItemExternalLink
               src='https://raw.githubusercontent.com/lmlstrandingnetwork/lml-stranding-map/master/public/screenshots/screenshot01.png'
@@ -31,6 +33,7 @@ const ProjectCards = () => {
               path='https://en.wikipedia.org/wiki/Huffman_coding'
             />
           </ul>
+          </FadeIn>
         </div>
       </div>
     </div>
