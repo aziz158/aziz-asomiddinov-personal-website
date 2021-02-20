@@ -12,8 +12,8 @@ function Cards() {
             <CardItem
               src='./images/Desktop.jpg'
               text='Explore my technical background and my skills'
-              label='Portfolio'
-              path='/portfolio'
+              label='Resume'
+              path='/resume'
             />
             <CardItem
               src='./images/Projects.jpeg'

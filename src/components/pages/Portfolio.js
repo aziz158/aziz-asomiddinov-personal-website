@@ -6,11 +6,11 @@ import FadeIn from 'react-fade-in';
 function Portfolio() {
   return(
   <div className='portfolio'>  
-    <div className='portfolio-image-container'>
       <FadeIn transitionDuration='2000'>
-        <img src={Resume} alt = 'Resume Image'/>
+        <div className='portfolio-image-container'>
+          <img src={Resume} alt = 'Resume Image'/>
+        </div>
       </FadeIn>
-    </div>
   </div>);
 }
 

@@ -32,6 +32,12 @@ const ProjectCards = () => {
               label='Huffman Enconding Project'
               path='https://en.wikipedia.org/wiki/Huffman_coding'
             />
+            <CardItemExternalLink
+              src='../../images/Personal-website-screenshot.jpg'
+              text='Check the source code on github of this website. #ReactJS, #CSS, #Javascript, #HTML'
+              label='Personal Website'
+              path='https://github.com/aziz158/aziz-asomiddinov-personal-website'
+            />
           </ul>
           </FadeIn>
         </div>

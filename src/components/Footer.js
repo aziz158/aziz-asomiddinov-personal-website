@@ -8,11 +8,8 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <h1 className='footer-subscription-heading'>
-          Wish you all of the best
-        </h1>
-        <p className='footer-subscription-text'>
           Follow me on social media :)
-        </p>
+        </h1>
         <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

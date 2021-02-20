@@ -52,6 +52,7 @@
 .lower-container p{
     margin: 1rem;
     font-family: sans-serif;
+    font-style: italic;
     color: #000;
     font-size: 0.9rem;
     text-align: justify;
