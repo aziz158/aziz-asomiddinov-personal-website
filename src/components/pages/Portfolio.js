@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Portfolio.css';
 import Resume from "../../files/Aziz2021_Resume1024_1.jpg"
 import FadeIn from 'react-fade-in';

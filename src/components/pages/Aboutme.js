@@ -2,7 +2,6 @@ import React from 'react';
 import './Aboutme.css';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
-import FadeIn from 'react-fade-in';
 
 const Aboutme = () => {
   return (
