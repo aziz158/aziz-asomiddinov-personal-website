@@ -1,0 +1,95 @@
+.contact {
+  background-color: #000;
+  padding: clamp(1.25rem, 0.714rem + 2.68vw, 3.125rem) 20px;
+  text-align: center;
+
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: clamp(1.25rem, 0.929rem + 1.61vw, 2.375rem);
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+
+  .subtitle {
+    font-size: clamp(1.25rem, 1.179rem + 0.36vw, 1.5rem);
+    color: #adb5bd;
+    margin-bottom: clamp(1.25rem, 0.857rem + 1.96vw, 2.625rem);
+  }
+
+  .form {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #060a0f;
+    border-radius: 14px;
+    padding: clamp(1.25rem, 0.821rem + 2.14vw, 2.75rem);
+    color: #e9ecef;
+
+    .img {
+      max-width: 123px;
+      width: 100%;
+    }
+
+    .label {
+      max-width: 300px;
+      width: 100%;
+
+      &:nth-last-of-type(1) {
+        .inp {
+          resize: none;
+          height: 90px;
+        }
+      }
+
+      .text {
+        font-size: clamp(1rem, 0.964rem + 0.18vw, 1.125rem);
+        margin-bottom: 12px;
+      }
+
+      .inp {
+        width: 100%;
+        padding: 8px;
+        background-color: #3b4957;
+        border-radius: 6px;
+        font-size: clamp(1rem, 0.929rem + 0.36vw, 1.25rem);
+
+        &:focus {
+          background-color: #999;
+          border: 1px solid #000;
+        }
+      }
+
+      .error {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #fa5252;
+      }
+    }
+
+    .btn {
+      padding: clamp(0.5rem, 0.357rem + 0.71vw, 1rem)
+        clamp(2.188rem, 1.616rem + 2.86vw, 4.188rem);
+      text-transform: uppercase;
+      font-weight: 700;
+      border: 1px solid #888;
+      background-color: transparent;
+      transition: 0.5s;
+      background: -webkit-linear-gradient(0deg, transparent 50%, #339af0 0);
+      background-size: 400px 1px;
+      cursor: pointer;
+
+      &:hover {
+        background-position: 200px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.projects {
+  background-color: #000;
+  padding: clamp(1.25rem, 0.714rem + 2.68vw, 3.125rem) 20px 50px;
+
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+    .title {
+      font-size: clamp(1.25rem, 1.071rem + 0.89vw, 1.875rem);
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 1.8px;
+      text-align: center;
+      margin-bottom: clamp(1.25rem, 0.179rem + 5.36vw, 5rem);
+    }
+
+    .block {
+      display: flex;
+      flex-direction: column;
+      gap: clamp(2.5rem, 1.429rem + 5.36vw, 6.25rem);
+
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        &:nth-of-type(even) {
+          flex-direction: row-reverse;
+        }
+
+        .folderT {
+          max-width: 650px;
+          width: 100%;
+          overflow: hidden;
+
+          &:hover {
+            .img {
+              transform: scale(1.1);
+            }
+          }
+
+          .img {
+            width: 100%;
+            height: clamp(7.188rem, 3.884rem + 16.52vw, 18.75rem);
+            object-fit: cover;
+            transition: 0.5s;
+          }
+        }
+
+        .folderB {
+          max-width: 500px;
+          width: 100%;
+
+          .text {
+            font-size: clamp(1rem, 0.964rem + 0.18vw, 1.125rem);
+            margin: 20px 0;
+
+            @media (max-width: 1219px) {
+              text-align: center;
+              margin: 0 0 20px;
+            }
+          }
+
+          .wrap {
+            border-bottom: 2px solid #fff;
+            max-width: 100px;
+            width: 100%;
+            text-align: center;
+            background: -webkit-linear-gradient(
+              0deg,
+              transparent 50%,
+              #339af0 0
+            );
+            background-size: 400px 1px;
+            transition: 0.5s;
+            cursor: pointer;
+
+            @media (max-width: 1219px) {
+              margin: 0 auto;
+            }
+
+            &:hover {
+              background-position: 200px 0;
+            }
+
+            .link {
+              display: block;
+              width: 100%;
+              padding-bottom: 4px;
+              color: #e9ecef;
+              font-size: clamp(1rem, 0.929rem + 0.36vw, 1.25rem);
+            }
+          }
+        }
+      }
+    }
+  }
+}
