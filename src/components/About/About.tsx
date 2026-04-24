@@ -52,7 +52,7 @@ const About = () => {
               full software development lifecycle and Agile methodologies.
             </p>
 
-            <a className={s.link} href="/Aziz_2025_Resume.pdf" download={"Aziz_Resume_2025"}>
+            <a className={s.link} href="/Aziz_2026_Resume.pdf" download={"Aziz_Resume_2026"}>
               My Resume
             </a>
           </div>
