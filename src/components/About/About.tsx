@@ -34,22 +34,7 @@ const About = () => {
             <h3 className={s.name}>Azizkhuja Asomiddinov</h3>
 
             <p className={s.text}>
-              Hey there 👋, thank you for visiting my page. Results-driven and
-              detail-oriented software engineer with a Master of Science in Data
-              Science from the University of Denver and a Bachelor's degree in
-              Computer Science from the University of California, Santa Cruz.
-              Former Software Engineer at General Motors, responsible for
-              developing RESTful APIs using the Spring framework, building
-              front-end applications with Angular, designing and customizing
-              CI/CD pipelines, and ensuring application reliability through
-              comprehensive testing and maintenance across multiple
-              environments. Proficient in programming languages including C/C++,
-              JavaScript, HTML/CSS, Java, and Python. Possesses a strong command
-              of core computer science principles, including data structures,
-              algorithms, and software architecture. Demonstrates a proven
-              ability to contribute effectively both independently and within
-              collaborative, agile development environments. Well-versed in the
-              full software development lifecycle and Agile methodologies.
+              Software engineer with 5+ years of experience designing, building, and maintaining scalable software systems across backend and frontend environments. Completed a Master of Science in Data Science from the University of Denver and a Bachelor’s degree in Computer Science from the University of California, Santa Cruz. Currently a Full Stack Engineer at Sordar Studios, developing and maintaining backend services and responsive frontend interfaces for game systems, including player data management, live content updates, and real-time integrations. Previously worked as a Software Engineer at General Motors, where responsibilities included building RESTful APIs using Spring, developing front-end applications with Angular, and designing CI/CD pipelines to support reliable deployments across multiple environments. Proficient in C/C++, JavaScript, Java, Python, and modern web technologies, with a strong foundation in data structures, algorithms, and software architecture. Experienced in Agile development and the full software development lifecycle, with a track record of contributing effectively in both team-based and independent settings.
             </p>
 
             <a className={s.link} href="/Aziz_2026_Resume.pdf" download={"Aziz_Resume_2026"}>
