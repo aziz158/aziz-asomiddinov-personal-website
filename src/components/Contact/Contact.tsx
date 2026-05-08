@@ -10,12 +10,7 @@ type Inputs = {
 };
 
 const Contact = () => {
-  const Token = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
-  const chatId = import.meta.env.VITE_TELEGRAM_CHAT_ID;
-
   const { sendMessage, isLoading, isShow } = useTelegram({
-    botToken: Token,
-    defaultChatId: chatId,
     showNotifications: true,
   });
 
@@ -27,11 +22,7 @@ const Contact = () => {
 
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
     await sendMessage({
-      text: `Name: ${data.name}
-Email: ${data.email}
-Message: ${data.message}`,
-      parseMode: "Markdown",
-      silent: false,
+      text: `Name: ${data.name}\nEmail: ${data.email}\nMessage: ${data.message}`,
     });
   };
 
