@@ -4,6 +4,14 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      src: "/smart_metric_hub.png",
+      alt: "smart_metric_hub",
+      href: "https://github.com/aziz158/smart-metric-hub",
+      text: "A modern, mobile-first React web application that brings together health, fitness, and everyday metric tools in one clean platform. Built for speed and simplicity — no sign-up, no tracking, just fast and accurate calculations.",
+      btn: "GitHub"
+    },
+    {
+      id: 2,
       src: "/spotify.webp",
       alt: "spotify",
       href: "https://github.com/aziz158/tomandaziz",
@@ -11,7 +19,7 @@ const Projects = () => {
       btn: "GitHub"
     },
     {
-      id: 2,
+      id: 3,
       src: "/vegetables.webp",
       alt: "vegetables",
       href: "https://github.com/aziz158/cnn_food",
@@ -19,7 +27,7 @@ const Projects = () => {
       btn: "GitHub"
     },
     {
-      id: 3,
+      id: 4,
       src: "/ucsc.webp",
       alt: "ucsc",
       href: "https://github.com/lmlstrandingnetwork/lml-stranding-map",
@@ -27,20 +35,12 @@ const Projects = () => {
       btn: "GitHub"
     },
     {
-      id: 4,
+      id: 5,
       src: "/sos.webp",
       alt: "sos",
       href: "https://github.com/hamfox/save-our-species",
       text: "See our IPhone application for reporting Strandings on the beaches. #Swift, #GoogleFirebase",
       btn: "GitHub"
-    },
-    {
-      id: 5,
-      src: "/huffman.svg",
-      alt: "huffman",
-      href: "https://en.m.wikipedia.org/wiki/Huffman_coding",
-      text: "This is the project that I was working in my freshmen year at De Anza. I used Huffman encoding algorithm to encrypt and compress the data. #C++, #BinaryTree, #LinkedList, #Dictionary",
-      btn: "Wiki"
     },
     {
       id: 6,
