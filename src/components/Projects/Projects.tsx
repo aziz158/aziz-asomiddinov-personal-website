@@ -46,9 +46,9 @@ const Projects = () => {
       id: 6,
       src: "/personal_website.png",
       alt: "personal_website.png",
-      href: "",
+      href: "https://github.com/aziz158/aziz-asomiddinov-personal-website",
       text: "Check the source code on github of this website. #ReactJS, #CSS, #Javascript, #HTML",
-      btn: "Website"
+      btn: "Github"
     },
   ];
 
